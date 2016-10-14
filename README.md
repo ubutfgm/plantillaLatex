@@ -6,6 +6,10 @@ En la carpeta tex se encuentran los distintos documentos que forman los document
 Dichos documentos contienen las secciones y subsecciones a completar.
 En el documento 3_Conceptos_teoricos.tex se encuentra una breve guía de como usar latex y los comandos propios de esta plantilla.
 
+# Petición de cambios y sugerencias
+
+Se ruega a los alumnos y tutores que detecten fallos o que quieran proponer una sugerencia que lo notifiquen mediante la creación de una issue https://github.com/ubutfgm/plantillaLatex/issues
+
 # Gracias a los contribuidores
 César Ignacio García Osorio, Álvar Arnaiz Gonzalez, Álvaro López Cantero, Roberto Izquierdo Amo, José Francisco Díez Pastor.
 
