@@ -6,4 +6,7 @@ En la carpeta tex se encuentran los distintos documentos que forman los document
 Dichos documentos contienen las secciones y subsecciones a completar.
 En el documento 3_Conceptos_teoricos.tex se encuentra una breve guía de como usar latex y los comandos propios de esta plantilla.
 
+# Gracias a los contribuidores
+César Ignacio García Osorio, Álvar Arnaiz Gonzalez, Álvaro López Cantero, Roberto Izquierdo Amo, José Francisco Díez Pastor.
+
 
