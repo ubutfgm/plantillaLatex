@@ -1,12 +1,12 @@
 # Plantilla Latex
 
-La plantilla se compone de dos documentos maestros, uno para la memoría y otra para los anexos.
+La plantilla se compone de dos documentos maestros: uno para la memoría (```memoria.tex```) y otra para los anexos (```anexos.tex```).
 
-En la carpeta tex se encuentran los distintos documentos que forman los documentos maestros. 
+En la carpeta ```tex``` se encuentran los distintos documentos que forman los documentos maestros. 
 Dichos documentos contienen las secciones y subsecciones a completar.
-En el documento 3_Conceptos_teoricos.tex se encuentra una breve guía de como usar latex y los comandos propios de esta plantilla.
+En el documento ```3_Conceptos_teoricos.tex``` se encuentra una breve guía de como usar LaTeX y los comandos propios de esta plantilla.
 
-# Creación y edición de documentos en latex.
+# Creación y edición de documentos en LaTeX.
 
 Latex es un lenguaje de marcado. Para crear y editar documentos en latex se necesita un editor de latex, que puede estar instalado en nuestro ordenador http://www.xm1math.net/texmaker/ o puede tratarse de un servicio web http://sharelatex.com/.
 
