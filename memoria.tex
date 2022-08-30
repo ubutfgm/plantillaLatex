@@ -33,30 +33,39 @@
 \widowpenalty100000
 \clubpenalty100000
 
-% Imagenes
+% Imágenes
+
+% Comando para insertar una imagen en un lugar concreto.
+% Los parámetros son:
+% 1 --> Ruta absoluta/relativa de la figura
+% 2 --> Texto a pie de figura
+% 3 --> Tamaño en tanto por uno relativo al ancho de página
 \usepackage{graphicx}
-\newcommand{\imagen}[2]{
+\newcommand{\imagen}[3]{
 	\begin{figure}[!h]
 		\centering
-		\includegraphics[width=0.9\textwidth]{#1}
+		\includegraphics[width=#3\textwidth]{#1}
 		\caption{#2}\label{fig:#1}
 	\end{figure}
 	\FloatBarrier
 }
 
-\newcommand{\imagenflotante}[2]{
-	\begin{figure}%[!h]
+% Comando para insertar una imagen sin posición.
+% Los parámetros son:
+% 1 --> Ruta absoluta/relativa de la figura
+% 2 --> Texto a pie de figura
+% 3 --> Tamaño en tanto por uno relativo al ancho de página
+\newcommand{\imagenflotante}[3]{
+	\begin{figure}
 		\centering
-		\includegraphics[width=0.9\textwidth]{#1}
+		\includegraphics[width=#3\textwidth]{#1}
 		\caption{#2}\label{fig:#1}
 	\end{figure}
 }
 
-
-
 % El comando \figura nos permite insertar figuras comodamente, y utilizando
 % siempre el mismo formato. Los parametros son:
-% 1 -> Porcentaje del ancho de página que ocupará la figura (de 0 a 1)
+% 1 --> Porcentaje del ancho de página que ocupará la figura (de 0 a 1)
 % 2 --> Fichero de la imagen
 % 3 --> Texto a pie de imagen
 % 4 --> Etiqueta (label) para referencias
