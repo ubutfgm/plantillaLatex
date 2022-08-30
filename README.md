@@ -7,7 +7,7 @@ La plantilla se compone de dos documentos maestros: uno para la memoria y otro p
 
 En la carpeta ```tex``` se encuentran los distintos documentos que forman los documentos maestros. 
 Dichos documentos contienen las secciones y subsecciones a completar.
-En el documento ```3_Conceptos_teoricos.tex``` se encuentra una breve guía de como usar LaTeX y los comandos propios de esta plantilla.
+En el documento ```3_Conceptos_teoricos.tex``` se encuentra una breve guía de cómo usar LaTeX y los comandos propios de esta plantilla.
 
 # Creación y edición de documentos en LaTeX
 
@@ -23,6 +23,6 @@ Se ruega a los alumnos y tutores que detecten fallos o que quieran proponer una 
 
 # Gracias a los contribuidores
 César Ignacio García Osorio, Álvar Arnaiz Gonzalez, José Francisco Díez Pastor, Carlos Lopez Nozal.
-Álvaro López Cantero, Roberto Izquierdo Amo, David Miguel Lozano.
+Álvaro López Cantero, Roberto Izquierdo Amo, David Miguel Lozano, Daniel Puente Ramírez.
 
 
