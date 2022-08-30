@@ -2,6 +2,35 @@
 
 \section{Introducción}
 
+Una muestra de cómo podría ser una tabla de casos de uso:
+
+% Caso de Uso 1 -> Consultar Experimentos.
+\begin{table}[p]
+	\centering
+	\begin{tabularx}{\linewidth}{ p{0.21\columnwidth} p{0.71\columnwidth} }
+		\toprule
+		\textbf{CU-1}    & \textbf{Ejemplo de caso de uso}\\
+		\toprule
+		\textbf{Versión}              & 1.0    \\
+		\textbf{Autor}                & Alumno \\
+		\textbf{Requisitos asociados} & RF-xx, RF-xx \\
+		\textbf{Descripción}          & La descripción del CU \\
+		\textbf{Precondición}         & Precondiciones (podría haber más de una) \\
+		\textbf{Acciones}             &
+		\begin{enumerate}
+			\def\labelenumi{\arabic{enumi}.}
+			\tightlist
+			\item Pasos del CU
+			\item Pasos del CU (añadir tantos como sean necesarios)
+		\end{enumerate}\\
+		\textbf{Postcondición}        & Postcondiciones (podría haber más de una) \\
+		\textbf{Excepciones}          & Excepciones \\
+		\textbf{Importancia}          & Alta o Media o Baja... \\
+		\bottomrule
+	\end{tabularx}
+	\caption{CU-1 Nombre del caso de uso.}
+\end{table}
+
 \section{Objetivos generales}
 
 \section{Catalogo de requisitos}
