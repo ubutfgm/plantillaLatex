@@ -294,8 +294,8 @@
 	\setcounter{section}{0}
 	\setcounter{figure}{0}
 	\setcounter{table}{0}
-	\chapter*{#2}
-	\addcontentsline{toc}{chapter}{#2}
+	\chapter*{\thechapter.\enskip #2}
+	\addcontentsline{toc}{chapter}{\thechapter.\enskip #2}
 	\markboth{#2}{#2}
 }
 
